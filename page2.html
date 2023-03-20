@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<title>Professional</title>
+
+<style>
+    *{font-family: 'Space Grotesk', sans-serif;}
+
+    .header{
+            border-style:solid;
+            display:flex;
+            padding-bottom:10px;
+            padding-top:10px;
+            padding-left:5px;
+            margin-bottom:15px;
+            background-color:rgb(176, 73, 107);
+            color:white;
+            border-color:lightpink;
+            border-width: medium;
+            font-size:large;}
+    .profH{
+            padding-left:580px;
+    }
+
+    .logo{
+            position:absolute;
+            padding-top:1px;
+    }
+
+    .middle {
+            display:flex;
+            flex-direction:row;
+            padding-bottom:15px;
+            font-size:medium;}
+        
+        
+    .expierence {
+            border-style:solid;
+            flex:2;
+            padding-left:5px;
+            padding-bottom:20px;
+            padding-right:5px;
+            display:inline-block;
+            border-color:palevioletred;
+            border-width: medium;
+            color:rgb(131, 36, 65);}
+    .peas {
+        display:block;
+    }
+
+    .other {
+            border-style:solid;
+            flex:2;
+            display:inline-block;
+            margin-left:15px;
+            padding-left:5px;
+            padding-right:5px;
+            border-color:palevioletred;
+            border-width: medium;
+            color:rgb(131, 36, 65);}
+
+            .footer {
+            border-style:solid;
+            display:block;
+            padding-bottom:50px;
+            background-color: rgb(176, 73, 107);
+            color:white;
+            border-color:lightpink;
+            border-width: medium;
+            text-align:center;
+            font-size:larger}
+
+
+            ul {list-style-type:none;
+                border-style:solid;
+                display:inline-block;
+                padding-left:0px;
+                margin-top:0px;
+                border-color:lightpink;
+                position:fixed;
+                top:27px;
+                right:8px;
+                }
+            
+                li a {width:100px;
+                background-color:palevioletred;
+                color:white;
+                padding-top:20px;
+                padding-bottom:20px;
+                display:block;
+                text-align:center;
+                text-decoration:none;}
+
+                li a:hover {
+                background-color:lightpink;}
+            
+            li a.active {
+                background-color:rgb(131, 36, 65);
+            } 
+            li {float:left;}
+        
+</style>
+
+</head>
+
+<body>
+
+    <div>
+    <ul>
+        <li> <a href="page1.html"> Home </a> </li>
+        <li> <a class="active" href="page2.html"> Professional </a> </li>
+    </ul>
+    </div>
+
+<div class="header">
+    <div class="profH">
+    <h1>Professional Life</h1>
+    </div>
+
+   <div class="logo">
+    <img src="android-chrome-192x192.png"
+        width="80px">
+    </div>
+</div>
+
+
+<div class="middle">
+<div class="expierence">
+
+    <h2>Film Expierence</h2>
+
+    <h3>FreshTV</h3>
+    <p class="F1">
+        On campus, I’ve participated in 
+        <a href="https://www.elon.edu/u/academics/communications/student-experiences/freshtv/"
+        target="_blank"
+        alt="FreshTV Link">FreshTV </a>
+
+            which is an accelerated training program that prepares students
+            to be successful in the many areas of communications. 
+            While in FreshTV, I collaborated on a final project
+            where my team and I created a short film called “Two Peas in a Pod.”
+            On set, I worked as the director of photography. </p>
+
+         <h3>"Two Peas in a Pod" Short Film</h3>
+
+            <video class="peas" width="700" controls>
+            <source src="2Peas.mov">
+            </video> <br>
+             
+
+            <p class="F2"> Additionally, for FreshTV’s showcase, I worked as a producer, floor manager, and talent.
+                Here is a photo of me on set: </p>
+
+            <img src="/Images/freshtv.jpeg"
+            width="700"
+            atl="Moylan on Set">
+            </div>
+
+           
+            <div class="other">
+            <h2>Other Expierence</h2> 
+            <h3>On Campus</h3>
+            <p> Outside of film-oriented positions, I work as a service desk associate in Elon University’s Facilities Management.
+                I mainly manage calls and direct problems that occur on campus to the correct deparments so issues can be resolved. </p> <br>
+
+            <img class ="elon" src="/Images/Elon_Alamance.jpg"
+            alt="Elon Campus"
+            width="675">
+           
+        
+        <h3>More</h3>
+        <p>The video below is a collaboration I worked on with the Human Resources Department of the Corning Painted-Post School District to promote teaching jobs within the community.</p>
+        <iframe width="675" height="415" src="https://www.youtube.com/embed/l3pOByTWVOI" 
+        title="YouTube video player" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Contact Information</p>
+        <p class="info">
+            607-742-4898 * *
+            jmoylan2@elon.edu
+        </p>
+    </div>
+</body>
+
+</html>
